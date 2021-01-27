@@ -1,3 +1,3 @@
 # Google Homepage
 
-Welcome to my first web development project where I deconstructed and rebuilt the Google homepage to get more comfortable with HTML and CSS!
+Welcome to my first web development project where I recreated the Google homepage with HTML and CSS!
