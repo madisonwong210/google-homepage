@@ -16,7 +16,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     width: 98%;
-    align-items: center;
 }
 
 nav ul {
@@ -24,6 +23,7 @@ nav ul {
     list-style: none;
     font-family: arial;
     font-size: 13px;
+    
 }
 
 nav li {
@@ -40,6 +40,11 @@ nav a:hover {
     text-decoration: underline
 }
 
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .nav-icon {
     height: 16px;
     width: 16px;
@@ -69,6 +74,7 @@ form {
     background-position: 2%;
     background-repeat: no-repeat;
     background-size: 30px;
+    
 }
 
 .format-search-bar:hover {
@@ -104,17 +110,23 @@ input:focus {
     outline: none;
 }
 
-.icons {
-    height: 20px;
-    width: 20px;
-    
-    
+.mic { 
+    width: 21px;
+    height: 21px;
+    transform: translate(1175%,-325%);
+    display: block;
+    margin: auto;
+    border: none;
+    background: transparent;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 /* footer */
 
 .format-bottom {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
@@ -122,6 +134,7 @@ input:focus {
     border-width: .5pt;
     border-style: solid;
     border-color: rgb(230, 230, 230);
+    
 }
 
 footer {
