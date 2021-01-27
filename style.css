@@ -65,7 +65,10 @@ form {
     width: 550px;
     border-width: thin;
     border-color: rgb(225, 225, 225);
-    
+    background-image: url("images/magnifying-glass.jpg");
+    background-position: 2%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
 
 .format-search-bar:hover {
